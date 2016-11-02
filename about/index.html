@@ -1,29 +1,29 @@
 
-  
+
     <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  
+
     <title>关于 | sweetmain'blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
-    
+
     <meta name="author" content="sweetmain">
-    
+
     <meta name="description" content="sweetmain个人博客">
-    
-    
+
+
     <link rel="stylesheet" href="../css/style.css" type="text/css">
 </head>
 
       <body>
         <header>
           <div>
-		
+
 			<div id="imglogo">
 				<a href="../"><img src="../img/ziji.png" alt="sweetmain'blog" title="sweetmain'blog"/></a>
 			</div>
-			
+
 			<div id="textlogo">
 				<h1 class="site-name"><a href="../" title="sweetmain'blog">sweetmain'blog</a></h1>
 				<h2 class="blog-motto">爱老婆，爱代码</h2>
@@ -57,7 +57,7 @@
                     </form>
                   </li>
 				</ul>
-			</nav>			
+			</nav>
 </div>
 </header>
 
@@ -90,7 +90,7 @@
   </div>
 
 </article>
-	
+
 </div>
 </div>
 <footer><script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
@@ -113,7 +113,7 @@
 </footer>
         <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('.navbar').click(function(){
     $('header nav').toggleClass('shownav');
   });
@@ -130,7 +130,7 @@ $(document).ready(function(){
       c = $('.closeaside'),
       o = $('.openaside');
   $(window).resize(function(){
-    getSize(); 
+    getSize();
     if (myWidth >= 1024) {
       $('header nav').removeClass('shownav');
     }else
@@ -138,7 +138,7 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-        
+
     }
   });
   c.click(function(){
@@ -148,7 +148,7 @@ $(document).ready(function(){
   });
   o.click(function(){
     o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
     m.removeClass('moveMain');
   });
   $(window).scroll(function(){
@@ -159,7 +159,7 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -183,7 +183,7 @@ $(document).ready(function(){
         $('.qrcode strong').text(' ');
     });
   });
-});     
+});
 </script>
 
 
@@ -194,17 +194,17 @@ $(document).ready(function(){
     ds.type = 'text/javascript';ds.async = true;
     ds.src = '//static.duoshuo.com/embed.js';
     ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
+    (document.getElementsByTagName('head')[0]
     || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
-</script> 
+</script>
 
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('.article-content').each(function(i){
     $(this).find('img').each(function(){
       if ($(this).parent().hasClass('fancybox')) return;
@@ -219,11 +219,10 @@ $(document).ready(function(){
   if($.fancybox){
     $('.fancybox').fancybox();
   }
-}); 
+});
 </script>
 
 
 
       </body>
      </html>
-     
