@@ -367,7 +367,9 @@ body >header {
   width: 100%;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: #ea6753;
+  /*background: #ea6753;*/
+  background: #2196F3;
+
   color: #fff;
   padding: 1em 0 0.8em;
 }
@@ -520,8 +522,8 @@ header nav ul li a {
   }
 }
 header nav ul li a:hover {
-  background: #dd2c11;
-  color: #e9cd4c;
+  background: #1976D2;
+  color: #ffffff;
 }
 .shownav {
   max-height: 40em;
@@ -610,7 +612,7 @@ header nav ul li a:hover {
   }
 }
 #main section.post a:hover {
-  border-left: 0.5em solid #ea6753;
+  border-left: 0.5em solid #2196F3;
 }
 #main section.post a h1 {
   color: #2ca6cb;
@@ -643,7 +645,7 @@ header nav ul li a:hover {
 }
 #page-nav a:hover {
   background: #ccc;
-  color: #ea6753;
+  color: #2196F3;
 }
 #page-nav .prev {
   float: left;
@@ -655,7 +657,7 @@ header nav ul li a:hover {
   transition: border-left 0.5s;
 }
 #page-nav .prev:hover {
-  border-left: 0.5em solid #ea6753;
+  border-left: 0.5em solid #757575;
 }
 #page-nav .next {
   float: right;
@@ -730,7 +732,7 @@ header nav ul li a:hover {
   transition: color 0.5s;
 }
 .archive-title a:hover {
-  color: #ea6753;
+  color: #1976D2;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -738,7 +740,7 @@ header nav ul li a:hover {
   transition: color 0.5s;
 }
 .current {
-  color: #ea6753 !important;
+  color: #1976D2 !important;
 }
 @media only screen and (min-width: 768px) {
   .archive-part {
@@ -783,11 +785,11 @@ header nav ul li a:hover {
 }
 .post a,
 .page a {
-  color: #2ca6cb;
+  color: #1976D2;
 }
 .post a:hover,
 .page a:hover {
-  color: #ea6753;
+  color: #1976D2;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info {
@@ -802,7 +804,7 @@ article header.article-info >h1 {
   word-break: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-left: 5px solid #ea6753;
+  border-left: 5px solid #1976D2;
 }
 @media only screen and (min-width: 1024px) {
   article header.article-info >h1 {
@@ -904,7 +906,7 @@ article .article-content abbr {
   border-bottom: 1px dotted;
 }
 article .article-content blockquote {
-  border-left: 0.2em solid #ea6753;
+  border-left: 0.2em solid #1976D2;
   margin: 0.65em 0 0.65em 4%;
   padding-left: 1%;
   line-height: 1.5;
@@ -1464,7 +1466,7 @@ section.comment {
   display: none;
 }
 .closeaside a {
-  color: #ea6753;
+  color: #757575;
 }
 .closeaside a:hover {
   color: #2ca6cb;
@@ -1718,7 +1720,7 @@ section.comment {
 }
 footer {
   margin-top: 1em;
-  background: #1f1f1f;
+  background: #212121;
   padding: 0 2% 0.5em;
 }
 #footer {
